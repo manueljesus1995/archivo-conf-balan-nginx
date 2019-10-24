@@ -1,5 +1,5 @@
 
-upstream debiancache {
+upstream balanceador {
         server 18.233.165.53;
         server 34.238.51.150;
     }
