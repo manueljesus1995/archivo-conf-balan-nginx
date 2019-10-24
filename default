@@ -1,0 +1,22 @@
+
+upstream debiancache {
+        server 18.233.165.53;
+        server 34.238.51.150;
+    }
+    
+    # Puerto que escucha
+    server {
+        listen 80;
+
+
+
+        location / {
+             proxy_pass http://balanceador;
+
+        }
+    }
+    
+    
+    
+    
+    
