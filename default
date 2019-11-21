@@ -1,7 +1,7 @@
 
 upstream balanceador {
-        server 18.233.165.53;
-        server 34.238.51.150;
+        server 54.242.217.156;
+        server 34.229.208.82;
     }
     
     # Puerto que escucha
